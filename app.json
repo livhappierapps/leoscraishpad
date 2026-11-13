@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Leo's CrAIsh Pad",
+    "slug": "leo-crash-pad",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "leo-crash-pad",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#17181E",
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {},
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
